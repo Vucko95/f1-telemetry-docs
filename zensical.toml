@@ -1,0 +1,49 @@
+[project]
+site_name = "Formula Telemetry Docs"
+site_url = "https://formula-telemetry.com/docs"
+site_description = "Learn how to read F1 telemetry data and understand the concepts behind the visualizations."
+site_author = "Formula Telemetry"
+docs_dir = "docs"
+site_dir = "site"
+# copyright = '<a href="https://formula-telemetry.com" target="_blank" rel="noopener">formula-telemetry.com</a>'
+
+
+[project.theme.icon]
+logo = "material/flag-checkered"
+
+[project.extra]
+generator = false
+
+[project.plugins.glightbox]
+touchNavigation = true
+loop = false
+effect = "zoom"
+zoomable = true
+draggable = true
+shadow = true
+
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "red"
+accent = "amber"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to dark mode"
+
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "deep orange"
+accent = "amber"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to light mode"
+
+nav = [
+  {"Home" = "index.md"},
+  {"Technical Reference" = [
+    "technical/car-telemetry.md",
+    "technical/location.md",
+    "technical/laps.md",
+    "technical/stints.md",
+  ]}
+]
