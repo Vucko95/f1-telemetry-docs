@@ -3,6 +3,24 @@ title: Introduction
 description: What live-timing data F1 publishes, how the Formula Telemetry app uses it, and what's deliberately missing.
 ---
 
+<style>
+@keyframes walk {
+  from { left: 100%; }
+  to   { left: -160px; }
+}
+.walking-cat {
+  position: fixed;
+  top: 2px;
+  left: 100%;
+  width: 60px;
+  animation: walk 14s linear infinite;
+  pointer-events: none;
+  z-index: 99999;
+}
+</style>
+
+<img class="walking-cat" src="./assets/animation.gif" alt="walking cat" />
+
 # Formula Telemetry Documentation
 
 <img src="./assets/formula_sketch_smaller2.png"  />
