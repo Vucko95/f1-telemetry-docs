@@ -41,9 +41,20 @@ toggle.name = "Switch to light mode"
 nav = [
   {"Home" = "index.md"},
   {"Technical Reference" = [
+    "technical/meeting-session.md",
+    "technical/drivers.md",
     "technical/car-telemetry.md",
     "technical/location.md",
     "technical/laps.md",
     "technical/stints.md",
+    "technical/intervals.md",
+    "technical/position.md",
+    "technical/pit.md",
+    "technical/race-control.md",
+    "technical/session-result.md",
+    "technical/starting-grid.md",
+    "technical/overtakes.md",
+    "technical/weather.md",
   ]}
+
 ]
