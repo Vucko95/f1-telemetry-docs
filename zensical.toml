@@ -1,6 +1,6 @@
 [project]
 site_name = "Formula Telemetry Docs"
-site_url = "https://formula-telemetry.com/docs"
+site_url = "https://docs.formula-telemetry.com/"
 site_description = "Learn how to read F1 telemetry data and understand the concepts behind the visualizations."
 site_author = "Formula Telemetry"
 docs_dir = "docs"
